@@ -1,0 +1,11 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/gcaseli/dynamic-configs

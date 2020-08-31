@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: gateway
+  # N.B. this is the default:
+  cloud:
+    config:
+      uri: http://localhost:8888
